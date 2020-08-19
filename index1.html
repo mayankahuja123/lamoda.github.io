@@ -1,181 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
+
 <head>
-<title>CSS Template</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-* {
-  box-sizing: border-box;
-}
- 
-/*body {
-  font-family: Arial, Helvetica, sans-serif;
-}*/
+  <meta charset="utf-8">
+  <title>Mayank Ahuja</title>
 
-/* Style the header */
-header {
-  background-color: black;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-  height:300px;
- 
-}
-
-/* Create two columns/boxes that floats next to each other */
-nav {
-  float: left;
-  width: 50%;
-  height: 540px; /* only for demonstration, should be removed */
-  background: #990099;
-  padding: 20px;
-  
-}
-.hero-image {
-  background-image: url("collage.jpg");
-  background-color: #cccccc;
-  height: 540px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-/* Style the list inside the menu */
-/*nav ul {
-  list-style-type: none;
-  padding: 0;
-}*/
-
-article {
-  float: right;
-  padding: 20px;
-  width: 100%;
-  
-  height: 540px; /* only for demonstration, should be removed */
-  background-color:purple;
-}
-
-/* Clear floats after the columns */
-section:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Style the footer */
-footer {
-  background-color: violet;
-  padding: 10px;
-  text-align: center;
-  color: white;
-  height:100px
-}
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="icon" href="favicon.ico">
+  <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat|Sacramento&display=swap" rel="stylesheet">
 
 
-.button1 {
-  background-color: purple; 
-  border: none;
-  border-radius:8px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  margin-right:10px;
-  font-size: 16px;
-  width:150px
-}
-
-.button3 {
-  background-color: purple; 
-  border: none;
-  border-radius:8px;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  margin-left:200px;
-  font-size: 16px;
-  width:150px
-}
-.button2 {
-  background-color: purple; 
-  border: none;
-  border-radius:8px;
-  color: white;
- 
-  text-align: center;
-  text-decoration: none;
- 
-  margin-left:40px;
- 
-  font-size: 16px;
-  padding:15px 32px;
-  width:150px;
-  height:200px;
-}
-#myVideo {
-  
-  min-width: 100px; 
-  min-height: 100px;
-}
-.button2:hover, .button3:hover {
-  background-color: violet;
-}
-.button1:hover {
-  background-color: violet;
-}
-
-</style>
 </head>
+
 <body>
 
 
+  <div class="topconatiner">
+    <img class="top-cloud" src="images/cloud.png" alt="">
 
-<header>
 
-
- <!--<a href="#" class="button1" style="float:right"></a>*/-->
- <a href="about.html" class="button1" style="float:left">About</a>
- <a href="index.html" class="button1" style="float:left">Creator</a>
- <a href="men.html" class="button1" style="float:right">Men</a>  
- <a href = "women.html" class="button1" style="float:right">Women</a>
- <br>
- <h2><font color=purple face="Algerian">La' Moda</font></h2>
- <hr>
-</header>
+    <h1 style="line-height:200%;">I'm Mayank</h1>
+    <h2 style="font-weight:normal;">a <u>pro</u>grammer.</h2>
 
 
 
-<section>
-  <nav class="hero-image">
-   
-      
-    
-  </nav>
-  
-  <article>
-   <center>
-   <video autoplay muted loop id="myVideo">
-   <source src="m.mp4" type="video/mp4">
-   </video>
-   </center>   
-   <br>
-   <br>
-  
-    <font size="20px" >   
-     "Style is a way to say who you are without having to speak."
-    </font>
-  </article>
-  
-</section>
- 
-<footer>
-  <br>
- <br>
- <font style="float:right;color:purple">Copyrights 2018-19</font>
-</footer>
+    <img class="bottom-cloud" src="images/cloud.png" alt="">
+    <img src="images/mountain.png" alt="">
+  </div>
+
+
+  <br />
+
+  <div class="middle-container">
+
+
+    <div class="profile">
+
+      <img class="me" src="images/mayank.jpg" alt="">
+
+      <h2>Hello.</h2>
+      <p>I am an android and a web developer. I ❤ to cook , play XBOX and help other people. </p>
+    </div>
+
+
+    <hr>
+
+
+
+
+    <div class="skills">
+      <h2 style="text-align:center;">My Skills.</h2>
+
+
+      <div class="skill-row">
+
+        <img class="computer" src="images/computer.png" alt="">
+
+        <div class="txt">
+          <h3>Design and Developement</h3>
+          <p>I started to code when I was in 9th grade. Currently I am learning to develope android apps. </p>
+        </div>
+
+      </div>
+
+
+
+      <div class="skill-row" style="margin-top:150px;">
+        <img class="chillies" src="images/chillies.png" alt="">
+
+        <div class="txt1">
+          <h3>Red Hot Chilli Peppere Challenge</h3>
+          <p>But my best is skill is to eat raw peppers. I am the undisputed chilli eater champion.</p>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+    <hr>
+
+
+
+    <div class="contact-me">
+      <h2>Get In Touch</h2>
+      <h3>If you love food as I do.</h3>
+      <p>Let's get in touch and try new dishes while we learn to code and help other people.</p>
+      <a class="btn" href="mailto:mayank.ahuja2468@email.com">CONTACT ME</a>
+      <br>
+    </div>
+
+  </div>
+
+
+
+ <hr />
+
+  <div class="bottom-container">
+
+
+    <a class="footer-link" href="https://www.linkedin.com/">LinkedIn</a>
+
+    <a class="footer-link" href="https://twitter.com/">Twitter</a>
+
+    <p>© 2018 Mayank Ahuja.</p>
+
+  </div>
+
 
 </body>
 </html>
