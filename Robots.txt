@@ -1,0 +1,4 @@
+User-Agent: *
+Disallow: 
+
+Sitemap: https://mayankahuja123.github.io/lamoda.github.io/sitemap.xml
